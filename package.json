@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "javascript",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Forum",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.37.1",
+    "eslint": "^9.5.0",
+    "fractional": "^1.0.0",
+    "parcel": "^2.12.0",
+    "prettier": "^3.3.2",
+    "regenerator-runtime": "^0.14.1",
+    "sass": "^1.26.10"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0"
+  }
+}
